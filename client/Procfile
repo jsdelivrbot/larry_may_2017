@@ -1,0 +1,7 @@
+heroku create
+npm run build
+git add .
+git commit
+git push heroku master
+
+web: node server.js
